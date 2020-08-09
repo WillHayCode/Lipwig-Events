@@ -2,7 +2,7 @@
   "name": "lipwig-events",
   "version": "0.0.1",
   "description": "Simple event manager for Lipwig",
-  "main": "index.js",
+  "main": "lib/EventManager.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/WillHayCode/Lipwig-Events/issues"
   },
-  "homepage": "https://github.com/WillHayCode/Lipwig-Events#readme"
+  "homepage": "https://github.com/WillHayCode/Lipwig-Events#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.0.0",
+    "grunt": "~0.4.5",
+    "grunt-exec": "^3.0.0",
+    "typescript": "3.9.3"
+  }
 }
