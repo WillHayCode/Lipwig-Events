@@ -1,0 +1,19 @@
+{
+  "name": "lipwig-events",
+  "version": "0.0.1",
+  "description": "Simple event manager for Lipwig",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillHayCode/Lipwig-Events.git"
+  },
+  "author": "William Hayward <WillHayCode@gmail.com> (https://WillHayCode.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WillHayCode/Lipwig-Events/issues"
+  },
+  "homepage": "https://github.com/WillHayCode/Lipwig-Events#readme"
+}
