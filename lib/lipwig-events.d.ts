@@ -3,19 +3,19 @@
 export class EventManager {
     constructor();
 
-    addEvent(event: any, fn: any, context: any, once: any): void;
+    addEvent(event: string, fn: any, context: any, once: boolean): void;
 
-    clear(event: any): void;
+    clear(event: string): void;
 
-    contains(event: any): any;
+    contains(event: string): any;
 
-    emit(event: any, ...args: any[]): void;
+    emit(event: string, ...args: any[]): void;
 
-    get(event: any): any;
+    get(event: string): any;
 
-    on(event: any, fn: any, context: any): void;
+    on(event: string, fn: any, context: any): void;
 
-    once(event: any, fn: any, context: any): void;
+    once(event: string, fn: any, context: any): void;
 
 }
 

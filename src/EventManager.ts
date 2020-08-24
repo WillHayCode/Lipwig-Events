@@ -16,7 +16,7 @@ export type CallbackMap = {
     [index: string]: CallbackEntry[];
 };
 
-export class EventManager<T> {
+export class EventManager {
     private events: CallbackMap;
 
     constructor() {
