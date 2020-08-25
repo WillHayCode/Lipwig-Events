@@ -13,9 +13,9 @@ export class EventManager {
 
     get(event: string): any;
 
-    on(event: string, fn: any, context: any): void;
+    on(event: string, fn: any, context?: any): void;
 
-    once(event: string, fn: any, context: any): void;
+    once(event: string, fn: any, context?: any): void;
 
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "lipwig-events",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple event manager for Lipwig",
   "main": "./lib/EventManager.js",
   "types": "./lib/lipwig-events.d.ts",
